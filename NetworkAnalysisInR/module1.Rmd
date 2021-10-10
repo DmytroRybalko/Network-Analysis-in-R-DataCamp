@@ -1,0 +1,38 @@
+---
+title: "Forecasting Elantra Sales"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+
+# Forecasting Elantra Sales  
+
+
+Load data:
+```{r}
+elantra <- read.csv("data/elantra.csv")
+```
+Let's view our data:
+```{r}
+str(elantra)
+```
+
+
+# View hours
+hours
+
+# Create new edge attribute called 'hours'
+g <- set_edge_attr(g, "hours", value = hours)
+
+# View edge attributes of graph object
+edge_attr(g)
+
+# Find all edges that include "Britt"
+E(g)[[inc('Britt')]]  
+
+# Find all pairs that spend 4 or more hours together per week
+E(g)[[hours >= 4]]  

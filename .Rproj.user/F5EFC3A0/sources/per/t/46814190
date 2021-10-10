@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1619704491318.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3909925636",
+    "id" : "46814190",
+    "lastKnownWriteTime" : 1619689699,
+    "last_content_update" : 1619689699,
+    "path" : "~/DataVizPath/Courses/Text-Mining-with-Bag-of-Words-in-R/3-Bag-of-Words.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "3,27",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
